@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import { useTransition, useState } from "react";
 import { useCurrentUser } from "@/hooks/use-current-user";
 import { signOut, useSession } from "next-auth/react"; // we use this type of signout in client component
@@ -35,7 +36,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { UserRole } from "@prisma/client";
 
-const setting = () => {
+const Setting = () => {
   // const user = useCurrentUser();
 
   // const onClick = () => {
@@ -227,4 +228,4 @@ const setting = () => {
   );
 };
 
-export default setting;
+export default Setting;

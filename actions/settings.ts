@@ -9,7 +9,6 @@ import { currentUser } from "@/lib/auth";
 import { SettingsSchema } from "@/schemas";
 import { generateVerificationToken } from "@/lib/token";
 import { sendVerificationEmail } from "@/lib/mail";
-import { newPassword } from "./new-password";
 
 export const settings = async (values: z.infer<typeof SettingsSchema>) => {
   const user = await currentUser();
