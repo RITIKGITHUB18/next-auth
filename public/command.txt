@@ -1,0 +1,8 @@
+OrderWise=>
+>> Command for add the new model into nodejs => npx prisma generate
+>> Command for reset the prisma schema [it delete the old schema]=> npx prisma migrate reset
+>> Command for Pushing the new schema is => npx prisma db push
+>> Command for Prisma Studio => npx prisma studio
+>> 
+>> 
+>> 
